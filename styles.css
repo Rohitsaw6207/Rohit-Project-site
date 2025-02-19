@@ -1,18 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #e9615e;
-  --secondary-color: #ec9956;
-  --extra-light: #f3f4f6;
+  --primary-color: #4b0082; /* Indigo (darker than SlateBlue) */
+  --secondary-color: #6a0dad; /* DarkPurple */
+  --extra-light: #d1c4e9; /* Light Lavender */
   --white: #ffffff;
-  --gradient-1: linear-gradient(to bottom right, #62393c, #181e41);
-  --gradient-2: linear-gradient(
-    to bottom,
-    var(--primary-color),
-    var(--secondary-color)
-  );
+  --gradient-1: linear-gradient(to bottom right, #2c1a4a, #0d0f23); /* Darker gradient */
+  --gradient-2: linear-gradient(to bottom, var(--primary-color), var(--secondary-color)); /* Darker gradient */
   --max-width: 1200px;
 }
+
 
 * {
   padding: 0;
